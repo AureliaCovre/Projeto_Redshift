@@ -3,7 +3,6 @@
  ### Tecnologias utilizadas:
     - Amazon Redshift
     - Amazon S3
-    - Amazon EC2
     - Google Data Studio [clique aqui](google data studio: https://lookerstudio.google.com/u/0/navigation/reporting)
 
 ### O que é o Amazon Redshift? 
@@ -14,16 +13,16 @@ A principal característica do Amazon Redshift é a sua capacidade de processar 
 Além disso, o Redshift é altamente escalável e pode ser dimensionado para atender a diferentes cargas de trabalho e tamanhos de dados. Ele também oferece recursos de segurança, como criptografia de dados em repouso e em trânsito, login de usuário e integração com outros serviços da AWS.
 
 ### Roteiro:
-    - [x] - Criar Cluster no Redshift
-    - [x] - Criar banco de dados e tabelas
-    - [x] - Criar Bucket no S3
-    - [x] - Upload de Arquivos 
-    - [x] - Criar Credenciais 
-    - [x] - Carregar dados utilizando Copy
-    - [x] - Criar tabela desmoralizada
-    - [x] - Configurar Redshift para o acesso público
-    - [x] - Conectar Google Data Studio 
-    - [x] - Criar Dashboard
+- [x] Criar Cluster no Redshift
+- [x] Criar banco de dados e tabelas
+- [x] Criar Bucket no S3
+- [x] Upload de Arquivos 
+- [x] Criar Credenciais 
+- [x] Carregar dados utilizando Copy
+- [x] Criar tabela desmoralizada
+- [x] Configurar Redshift para o acesso público
+- [x] Conectar Google Data Studio 
+- [x] Criar Dashboard
 
 
 ### Passo a passo:
