@@ -28,27 +28,26 @@ Além disso, o Redshift é altamente escalável e pode ser dimensionado para ate
 
 
 ### Passo a passo:
-    1º Etapa:  Criar um cluster no Redshift. * Não esquecer de cópiar o usúario e senha 
+1º Etapa:  Criar um cluster no Redshift. * Não esquecer de cópiar o usúario e senha 
 
-    2º Etapa: No Redshift, clicar em "Editor de consultasv2" aplicativo que a propria amazon disponibiliza para interagir com cluster que criamos. 
+2º Etapa: No Redshift, clicar em "Editor de consultasv2" aplicativo que a propria amazon disponibiliza para interagir com cluster que criamos.
     
-    (select.PNG)
+(select.PNG)
 
-    3º Etapa: Criação do Banco de dados e estrutura de tabelas (arquivo: "1_criacao_tabelas")
+3º Etapa: Criação do Banco de dados e estrutura de tabelas (arquivo: "1_criacao_tabelas")
 
-    4º Etapa: Criação de um Bucket no Amazon S3 e anexar as tabelas.
+4º Etapa: Criação de um Bucket no Amazon S3 e anexar as tabelas.
 
-    5º Etapa: Criar chaves de acesso, para o Redshift se conectar ao bucket S3. Para isso, clicar no seu usúario e em "credenciais de segurança". Clica em chave de acesso --> Criar nova chave de acesso.
+5º Etapa: Criar chaves de acesso, para o Redshift se conectar ao bucket S3. Para isso, clicar no seu usúario e em "credenciais de segurança". Clica em chave de acesso --> Criar nova chave de acesso.
 
-    6º Etapa: Para carregar os dados, precisamos copiar URI do S3 de cada arquivo. (arquivo "2_populando_tabelas")
+6º Etapa: Para carregar os dados, precisamos copiar URI do S3 de cada arquivo. (arquivo "2_populando_tabelas")
 
-    7º Etapa: Criando uma tabela desnormalizada, concatenando as tabelas existentes para simplificar as consultas. (arquivo "3_criandofatovendas")
+7º Etapa: Criando uma tabela desnormalizada, concatenando as tabelas existentes para simplificar as consultas. (arquivo "3_criandofatovendas")
 
-    8º Etapa: Criação de Dashboard via Google Data Studio, para isso primeiramente é necessário liberar DW do Redshift para que fique disponivel publicamente, pois por padrão ele não fica. Entrar no cluster do redshift, clica em "Ações: Modificar a configuração publicamente acessível". [] Habilitar.
+8º Etapa: Criação de Dashboard via Google Data Studio, para isso primeiramente é necessário liberar DW do Redshift para que fique disponivel publicamente, pois por padrão ele não fica. Entrar no cluster do redshift, clica em "Ações: Modificar a configuração publicamente acessível". [] Habilitar. Copiar o Endpoint para fazer a conexão. 
+[Dashdoard](dashboard.PNG)
 
-    Copiar o Endpoint para fazer a conexão. 
-
-    Configuração de acesso especifico: Clique em propriedade --> grupo de segurança --> id do grupo de segurança
+Configuração de acesso especifico: Clique em propriedade --> grupo de segurança --> id do grupo de segurança
 
 
 
