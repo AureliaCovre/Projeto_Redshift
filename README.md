@@ -32,7 +32,7 @@ Além disso, o Redshift é altamente escalável e pode ser dimensionado para ate
 
     2º Etapa: No Redshift, clicar em "Editor de consultasv2" aplicativo que a propria amazon disponibiliza para interagir com cluster que criamos. 
     
-    (C:\Users\aurel\OneDrive\Documentos\meus projetos\Eng_dados\select.PNG)
+    (select.PNG)
 
     3º Etapa: Criação do Banco de dados e estrutura de tabelas (arquivo: "1_criacao_tabelas")
 
