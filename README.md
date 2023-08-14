@@ -56,7 +56,9 @@ Além disso, o Redshift é altamente escalável e pode ser dimensionado para ate
 
 Configuração de acesso especifico: Clique em propriedade --> grupo de segurança --> id do grupo de segurança
 
-Para evitar cobranças, após o procedimento foram excluidos o cluster, bucket, chaves.
+Para evitar cobranças, após o procedimento foram excluidos o cluster, bucket, chaves. Verificar se foi gerado snapshots e excluir também.
+
+
 
 
 
