@@ -40,6 +40,7 @@ Além disso, o Redshift é altamente escalável e pode ser dimensionado para ate
 6º Etapa: Para carregar os dados, precisamos copiar URI do S3 de cada arquivo. [Script](2_populando_tabelas.sql)
 
 ![Clique aqui para ver o print](redshift.PNG)
+
 ![Clique aqui para ver o print](select_redshift.PNG)
 
 7º Etapa: Criando uma tabela desnormalizada, concatenando as tabelas existentes para simplificar as consultas. [Script](3_criando_fatovendas.sql)
