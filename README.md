@@ -1,9 +1,9 @@
 # AMAZON REDSHIFT
  
  ### Tecnologias utilizadas:
-    - Amazon Redshift
-    - Amazon S3
-    - Google Data Studio [clique aqui](google data studio: https://lookerstudio.google.com/u/0/navigation/reporting)
+ * Amazon Redshift
+ * Amazon S3
+ * Google Data Studio [clique aqui](google data studio: https://lookerstudio.google.com/u/0/navigation/reporting)
 
 ### O que é o Amazon Redshift? 
 O Amazon Redshift é um serviço de DW oferecido AWS. Ele é projetado para processar e analisar grandes volumes de dados de forma eficiente e escalável. O Redshift é especialmente adequado para executar análises complexas em dados históricos ou operacionais para obter insights para os negócios.
