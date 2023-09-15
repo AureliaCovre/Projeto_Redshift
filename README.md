@@ -40,4 +40,5 @@ Além disso, o Redshift é altamente escalável e pode ser dimensionado para ate
 
 Para evitar cobranças não planejadas, exclua o cluster, o bucket e as chaves de acesso após a conclusão do projeto. Verifique se não há snapshots gerados e exclua-os, se necessário.
 
+
 **Por [Aurélia Covre](https://github.com/AuréliaCovre)**
